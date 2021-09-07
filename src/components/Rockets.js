@@ -1,7 +1,7 @@
-/*eslint-disable*/
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { rockets } from '../redux/rockets/rockets'
+import { rockets } from '../redux/rockets/rockets';
+
 const baseUrl = 'https://api.spacexdata.com/v3/rockets';
 
 const Rockets = () => {
@@ -10,40 +10,29 @@ const Rockets = () => {
 
   const getRockets = () => {
     fetch(baseUrl).then((data) => {
-      data.json().then((dataJson) => 
-      dispatch(rockets(dataJson)),
-      
-      ).then((data) => 
-        console.log(data),
-      ).then(console.log(state)); 
+      data.json().then((dataJson) => dispatch(rockets(dataJson)));
     });
   };
   useEffect(() => {
-    getRockets(); 
+    getRockets();
     console.log(state);
   }, []);
-//Umibe no etranger 
-//The Anthem of heart 
-//Tamako Love Story
-//A whisker Away
-  
   return (
     <div>
-      {/* <p> Rockets</p> */}
       <ul>
-      {state.map((rocket) => (
-        <li key={rocket.rocket_id}>
-          <img src={rocket.flickr_images[0]} />
-          <p>{rocket.rocket_id}</p>
-          <p>{rocket.rocket_name}</p>
-          <p>{rocket.rocket_type}</p>
-          <p>{rocket.description}</p>
-          <button type='button'>Reserve Rocket</button>
-        </li>
-      ))}
+        {state.map((rocket) => (
+          <li key={rocket.rocket_id}>
+            <img src={rocket.flickr_images[0]} alt="rocket" />
+            <p>{rocket.rocket_id}</p>
+            <p>{rocket.rocket_name}</p>
+            <p>{rocket.rocket_type}</p>
+            <p>{rocket.description}</p>
+            <button type="button">Reserve Rocket</button>
+          </li>
+        ))}
       </ul>
     </div>
   );
-}
+};
 
 export default Rockets;
