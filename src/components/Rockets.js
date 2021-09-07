@@ -1,5 +1,5 @@
 /*eslint-disable*/
-import React, {useEffect, componentDidMount} from 'react';
+import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { rockets } from '../redux/rockets/rockets'
 const baseUrl = 'https://api.spacexdata.com/v3/rockets';
@@ -18,7 +18,6 @@ const Rockets = () => {
       ).then(console.log(state)); 
     });
   };
-
   useEffect(() => {
     getRockets(); 
     console.log(state);
@@ -30,7 +29,19 @@ const Rockets = () => {
   
   return (
     <div>
-      <p> Rockets</p>
+      {/* <p> Rockets</p> */}
+      <ul>
+      {state.map((rocket) => (
+        <li key={rocket.rocket_id}>
+          <img src={rocket.flickr_images[0]} />
+          <p>{rocket.rocket_id}</p>
+          <p>{rocket.rocket_name}</p>
+          <p>{rocket.rocket_type}</p>
+          <p>{rocket.description}</p>
+          <button type='button'>Reserve Rocket</button>
+        </li>
+      ))}
+      </ul>
     </div>
   );
 }
