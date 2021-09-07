@@ -22,3 +22,7 @@ body {
   min-height: 100vh;
   font-family: 'Marvel', sans-serif;
 }
+
+h1 {
+  color: whitesmoke;
+}
