@@ -1,12 +1,5 @@
-/*eslint-disable*/
 import React from 'react';
 
-const MyProfile = () => {
-  return (
-    <div>
-      <p> MyProfile</p>
-    </div>
-  );
-}
+const MyProfile = () => (<div>My Profile</div>);
 
 export default MyProfile;

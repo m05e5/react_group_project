@@ -1,30 +1,20 @@
-/* eslint-disable */
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom';
-import Header from './components/Header';
-import MyProfile from './components/MyProfile';
-import Rockets from './components/Rockets';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import Rockets from './Components/Rockets';
+import Nav from './Components/Nav';
+import Missions from './Components/Missions';
+import MyProfile from './Components/MyProfile';
 
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Switch>
-          <Route path="/myProfile">
-            <MyProfile />
-          </Route>
-          <Route path="/">
-            <Rockets />
-          </Route>
-        </Switch>
-      </Router>
-      <p>hello world</p>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={Rockets} />
+        <Route path="/missions" component={Missions} />
+        <Route path="/profile" component={MyProfile} />
+      </Switch>
+    </Router>
+  </div>
+);
 
 export default App;
