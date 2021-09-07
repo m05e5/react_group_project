@@ -5,8 +5,10 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
+import { Provider } from 'react-redux';
 import MyProfile from './components/MyProfile';
 import Rockets from './components/Rockets';
+import store from './redux/configureStore';
 
 function App() {
   return (
@@ -18,11 +20,12 @@ function App() {
             <MyProfile />
           </Route>
           <Route path="/">
-            <Rockets />
+            <Provider store={store}> 
+              <Rockets />
+            </Provider>
           </Route>
         </Switch>
       </Router>
-      <p>hello world</p>
     </div>
   );
 }
