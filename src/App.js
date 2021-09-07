@@ -38,6 +38,9 @@ function App() {
           <Route path="/myProfile">
             <MyProfile />
           </Route>
+          <Route path="/missions">
+            <Missions />
+          </Route>
           <Route path="/">
             <Provider store={store}> 
               <Rockets />

@@ -12,11 +12,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
 }
 
 body {
-  background-image: url(http://i39.servimg.com/u/f39/17/72/50/13/juegos11.jpg);
+  /* background-image: url(http://i39.servimg.com/u/f39/17/72/50/13/juegos11.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
