@@ -1,12 +1,12 @@
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import Rockets from './Components/Rockets';
-import Nav from './Components/Nav';
-import Missions from './Components/Missions';
-import MyProfile from './Components/MyProfile';
+import { Switch, Route, HashRouter as Router } from 'react-router-dom';
+import Rockets from './components/Rockets';
+import Nav from './components/Nav';
+import Missions from './components/Missions';
+import MyProfile from './components/MyProfile';
 
 const App = () => (
   <div>
-    <Router>
+    <Router basename="/">
       <Nav />
       <Switch>
         <Route exact path="/" component={Rockets} />
