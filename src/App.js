@@ -9,9 +9,9 @@ const App = () => (
     <Router basename="/">
       <Nav />
       <Switch>
-        <Route exact path="/" component={Rockets} />
         <Route path="/missions" component={Missions} />
         <Route path="/profile" component={MyProfile} />
+        <Route exact path="/" component={Rockets} />
       </Switch>
     </Router>
   </div>
