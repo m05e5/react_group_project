@@ -29,17 +29,23 @@ const Rockets = () => {
     <div>
       <ul>
         {state.map((rocket) => (
-          <li key={rocket.rocket_id}>
-            <img src={rocket.flickr_images[0]} alt="rocket" />
+          <li key={rocket.rocket_id} className={style.rocket}>
+            <img src={rocket.flickr_images[0]} alt="rocket" className={style.rocketImg} />
             <div>
-              <p>{rocket.rocket_name}</p>
-                <p>
-                  {rocket.reserved && <span className={style.reserved}>Reserved</span> }
-                  {rocket.description}
-                </p>
-              </div>
+              <p className={style.rocketName}>{rocket.rocket_name}</p>
+              <p className={style.rocketDesc}>
+                {rocket.reserved && <span className={style.reserved}>Reserved</span> }
+                {rocket.description}
+              </p>
               {rocket.reserved
-                ? <button type="button" onClick={() => cancelReserve(rocket.id)}>Cancel Reservation</button>
-                : <button type="button" onClick={() => reserve(rocket.id)}>Reserve Rocket</button>}
+                ? <button type="button" className={style.cancelReserve} onClick={() => cancelReserve(rocket.id)}>Cancel Reservation</button>
+                : <button type="button" className={style.reserve} onClick={() => reserve(rocket.id)}>Reserve Rocket</button>}
             </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
+export default Rockets;

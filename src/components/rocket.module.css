@@ -45,3 +45,19 @@
   font-size: 23px;
   font-weight: bold;
 }
+
+.MyProfile {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.reservedMissions {
+  width: 500px;
+}
+
+.Rocket_li {
+  width: 400px;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 10px;
+}
