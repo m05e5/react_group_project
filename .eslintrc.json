@@ -23,6 +23,7 @@
     "no-console": "off",
     "linebreak-style": 0,
     "no-undef": "off",
+    "max-len": "off",
     "import/extensions": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
