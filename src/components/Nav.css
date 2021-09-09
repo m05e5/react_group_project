@@ -36,7 +36,3 @@ header {
   border-left: 1px solid #000;
   padding-left: 2rem;
 }
-
-.navlink:focus {
-  text-decoration: underline;
-}
