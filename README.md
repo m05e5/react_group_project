@@ -5,6 +5,7 @@
 > This project is part of Microverse's 2.0 curriculum. and it's been built with Html5, CSS3, JS, JSX and webpack; Keeps track of books that you have read using React and Redux, following the guidelines of 
 ![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
 ---
+
 🤍 Preview Image🤍
 ---------------------------------------------
 |   Desktop version                         |
