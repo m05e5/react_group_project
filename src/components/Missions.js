@@ -10,8 +10,6 @@ import { setMissions } from '../redux/reducers/MissionsReducer';
 const Missions = () => {
   const missions = useSelector((state) => state.missionsReducer);
   const dispatch = useDispatch();
-  console.log(missions);
-
   const loadMissions = async () => {
     const missions = await axios
       .get('https://api.spacexdata.com/v3/missions?limit=6')

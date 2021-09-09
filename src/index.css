@@ -30,6 +30,10 @@ a:hover {
   font-size: larger;
 }
 
+a:focus {
+  text-decoration: underline;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Marvel', sans-serif;

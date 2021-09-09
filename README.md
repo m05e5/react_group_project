@@ -24,8 +24,13 @@
 - Webpack 🤍
 
 ---
-The main purpose of the project [redux_group_project]() is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
+The main purpose of the project [redux_group_project](https://spacetraveler.netlify.app/) is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 ~
+# 🤍 Live Demo 🤍
+---
+
+🤍 [Netlify](https://spacetraveler.netlify.app/)
+
 ---
 
 # 🤍 Instructions:
@@ -160,7 +165,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Contributions, issues, and feature requests are welcome! 🤍
 
 
-Feel free to check the [issues page](https://github.com/boostore-redux/issues).
+Feel free to check the [issues page](https://github.com/react_group_project/issues).
 
 
 ## 🤍 Show your support
