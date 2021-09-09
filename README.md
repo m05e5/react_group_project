@@ -27,12 +27,6 @@
 The main purpose of the project [redux_group_project]() is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 ~
 ---
-# 🤍 Live Demo 🤍
----
-
-🤍 [live demo]()
-
----
 
 # 🤍 Instructions:
 
