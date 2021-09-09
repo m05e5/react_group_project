@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.535);
+  background-color: rgba(100, 76, 206, 0.535);
 }
 
 .logo-title-wrapper {
@@ -19,7 +19,7 @@ header {
 
 .nav-title,
 .navlink {
-  color: rgb(133, 4, 4);
+  color: rgb(255, 9, 9);
 }
 
 .nav-list {

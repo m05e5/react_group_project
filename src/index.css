@@ -22,20 +22,23 @@ ul {
 
 a {
   text-decoration: none;
+  color: red;
+}
 
-  /* color: white; */
+a:hover {
+  color: greenyellow;
+  font-size: larger;
 }
 
 body {
-  /* background-image: url(http://i39.servimg.com/u/f39/17/72/50/13/juegos11.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 100vh;
   font-family: 'Marvel', sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 18px;
-}
-
-h1 {
-  color: whitesmoke;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  background-image: url(https://s3.envato.com/files/158244028/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturation(80%);
 }
