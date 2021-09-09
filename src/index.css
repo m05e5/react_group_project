@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.nav-div {
+  padding: 1rem;
+  border-bottom: 2px solid rgb(218, 218, 218);
+}
+
+.navUl {
+  display: flex;
+  gap: 1rem;
+}
+
 ul {
   list-style: none;
 }
@@ -22,6 +32,8 @@ body {
   background-size: cover;
   min-height: 100vh;
   font-family: 'Marvel', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 h1 {

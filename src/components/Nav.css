@@ -1,0 +1,42 @@
+.logo {
+  width: 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.535);
+}
+
+.logo-title-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-title,
+.navlink {
+  color: rgb(133, 4, 4);
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+  font-size: 24px;
+}
+
+.nav-rockets {
+  padding-right: 2rem;
+}
+
+.nav-my-profile {
+  border-left: 1px solid #000;
+  padding-left: 2rem;
+}
+
+.navlink:focus {
+  text-decoration: underline;
+}

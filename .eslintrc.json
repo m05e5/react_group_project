@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "no-console": "off",
+    "linebreak-style": 0,
     "import/extensions": "off"
   },
   "ignorePatterns": ["dist/", "build/"]

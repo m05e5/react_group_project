@@ -36,7 +36,9 @@ function App() {
         <Header />
         <Switch>
           <Route path="/myProfile">
-            <MyProfile />
+            <Provider store={store}> 
+              <MyProfile />
+            </Provider>
           </Route>
           <Route path="/missions">
             <Missions />
