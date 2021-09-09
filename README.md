@@ -30,7 +30,7 @@ The main purpose of the project [redux_group_project]() is to put in practice HT
 # 🤍 Live Demo 🤍
 ---
 
-🤍 [Netlify]()
+🤍 [live demo]()
 
 ---
 
