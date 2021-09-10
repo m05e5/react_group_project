@@ -13,6 +13,9 @@
 ![Desktop](https://user-images.githubusercontent.com/54015740/132718531-3acebf08-0a4c-42d7-b188-6b9f3c5cc275.png)
 --------------------------------------------
 
+## Live video explaination
+
+[Live video](https://www.loom.com/share/7e37abf963274f13b8a9059102529c60)
 ## 🤍 Built With:
 
 ---
