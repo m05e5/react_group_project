@@ -1,3 +1,80 @@
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) ![app](https://img.shields.io/badge/Myapp-blue)
+---
+# bookstore-redux
+
+> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5, CSS3, JS, JSX and webpack; Keeps track of books that you have read using React and Redux, following the guidelines of 
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
+---
+
+🤍 Preview Image🤍
+---------------------------------------------
+|   Desktop version                         |
+|-------------------------------------------|
+![Desktop](https://user-images.githubusercontent.com/54015740/132718531-3acebf08-0a4c-42d7-b188-6b9f3c5cc275.png)
+--------------------------------------------
+
+## Live video explaination
+
+[Live video](https://www.loom.com/share/7e37abf963274f13b8a9059102529c60)
+## 🤍 Built With:
+
+---
+
+- HTML5   🤍
+- CSS3    🤍
+- JS      🤍
+- React   🤍
+- Webpack 🤍
+
+---
+The main purpose of the project [redux_group_project](https://spacetraveler.netlify.app/) is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
+~
+# 🤍 Live Demo 🤍
+---
+
+🤍 [Netlify](https://spacetraveler.netlify.app/)
+
+---
+
+# 🤍 Instructions:
+
+To get a local copy up and running follow these simple sample steps.
+
+## 🤍 Getting Started:
+
+To get the content of this project locally you need to run this command on your terminal :
+
+ - ` cd <folder> `
+
+- ` git clone git@github.com:sheylaPozo/bookstore-redux.git`
+
+### 🤍 Install
+
+- Set up liveserver as an extension in your VS Code.
+- If you don't have the live server extension, or are using another software just view directly in your browser.
+
+### 🤍 Usage:
+
+- Right click on "Go Live" in your VScode to view in your browser.
+- If you don't have live server extension right click on the index.html to view in browser.
+
+## 🤍 Test:
+
+For tracking linter errors locally you need to follow these steps:
+
+- After cloning the project you need to run this command:
+
+  > `npm install`
+  > This command will download all the dependancies of the project
+
+- For tracking any linter errors in HTML file run:
+
+  > `npx hint .`
+
+- And for tracking linter errors in CSS file run:
+  > `npx stylelint "\*_/_.{css,scss}"`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +145,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤍 Authors:
+
+👤 **Caleb Moses**
+
+- Github: [@m05e5](https://github.com/m05e5)
+- Linkedin: [caleb Moses](https://www.linkedin.com/in/caleb-moses-0a1b531b9/)
+
+
+👤 **Sheyla Pozo** 🤍
+
+
+- Github:[Sheyla Pozo](https://github.com/sheylaPozo)
+- Linkedin: [Sheyla Pozo](https://www.linkedin.com/in/sheypozo/)
+- Twitter: [Sheyla Pozo](https://twitter.com/sheyPozo)
+
+---
+
+## 🤝 Contributing:
+
+Contributions, issues, and feature requests are welcome! 🤍
+
+
+Feel free to check the [issues page](https://github.com/react_group_project/issues).
+
+
+## 🤍 Show your support
+
+Give a ⭐️ if you like this project!
+
+## 🤍 Acknowledgments
+
+Hat tip to anyone whose code was used
+- Microverse
+- Inspiration

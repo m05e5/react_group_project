@@ -1,0 +1,64 @@
+.reserved {
+  background-color: rgb(116, 116, 199);
+  color: white;
+  border-radius: 5px;
+  padding: 0 3px 0 3px;
+  height: 20px;
+  width: 65px;
+  margin: 5px;
+}
+
+.rocket {
+  display: flex;
+  height: 200px;
+  margin: 1rem 6rem 1rem 1rem;
+  gap: 1rem;
+}
+
+.rocketImg {
+  width: 250px;
+}
+
+.reserve {
+  background-color: rgb(78, 78, 255);
+  padding: 4px;
+  border-radius: 5px;
+  border: solid rgb(78, 78, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.cancelReserve {
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.rocketDesc {
+  padding: 10px 10px 10px 0;
+}
+
+.rocketName {
+  font-size: 23px;
+  font-weight: bold;
+  color: aqua;
+}
+
+.MyProfile {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.reservedMissions {
+  width: 500px;
+}
+
+.Rocket_li {
+  width: 400px;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 10px;
+}
